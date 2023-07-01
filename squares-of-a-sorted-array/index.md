@@ -24,4 +24,5 @@ class Solution:
             pos -= 1
         
         return res
+
 ```

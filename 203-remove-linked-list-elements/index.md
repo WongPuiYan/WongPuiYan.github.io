@@ -13,15 +13,16 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def removeElements(self, head: ListNode, val: int) -> ListNode:
-        p_h = ListNode()
-        p_h.next = head
-        p = p_h
-        while p:
-            if p.next and p.next.val == val:
-                p.next = p.next.next
+    def removeElements(self, head: Optional[ListNode], val: int) -> Optional[ListNode]:
+        dummy_head = ListNode(next=head)
+
+        current = dummy_head
+        while current.next:
+            if current.next.val == val:
+                current.next = current.next.next
             else:
-                p = p.next
-        return p_h.next
+                current = current.next
+
+        return dummy_head.next
 
 ```

@@ -26,3 +26,4 @@ class Solution:
         return dummy_head.next
 
 ```
+

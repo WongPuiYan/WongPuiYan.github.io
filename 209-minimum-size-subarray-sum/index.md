@@ -22,3 +22,4 @@ class Solution:
         return 0 if res == len(nums) + 1 else ress
 
 ```
+

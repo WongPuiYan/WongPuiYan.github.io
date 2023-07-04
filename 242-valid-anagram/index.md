@@ -33,18 +33,12 @@ class Solution:
         t_dict = {}
 
         for i in s:
-            if i in s_dict:
-                s_dict[i] += 1
-            else:
-                s_dict[i] = 0
-
-        for i in t:
-            if i in t_dict:
-                t_dict[i] += 1
-            else:
-                t_dict[i] = 0
+            s_dict[i] = s_dict.get(i, 0) + 1
         
-        return s_dict ==t_dict
+        for i in t:
+            t_dict[i] = t_dict.get(i, 0) + 1
+        
+        return s_dict == t_dict
 
 # 默认字典
 class Solution:

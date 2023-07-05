@@ -1,4 +1,7 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>揾食啫</title><link>https://wongpuiyan.github.io/</link><description>每天记录一点点</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>neowong@qq.com (NeoWong)</managingEditor><webMaster>neowong@qq.com (NeoWong)</webMaster><lastBuildDate>Wed, 05 Jul 2023 00:12:30 +0800</lastBuildDate><atom:link href="https://wongpuiyan.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>快乐数</title><link>https://wongpuiyan.github.io/202-happy-number/</link><pubDate>Wed, 05 Jul 2023 00:12:30 +0800</pubDate><author>NeoWong</author><guid>https://wongpuiyan.github.io/202-happy-number/</guid><description><![CDATA[<h2 id="202-快乐数">202. 快乐数</h2>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>揾食啫</title><link>https://wongpuiyan.github.io/</link><description>每天记录一点点</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>neowong@qq.com (NeoWong)</managingEditor><webMaster>neowong@qq.com (NeoWong)</webMaster><lastBuildDate>Wed, 05 Jul 2023 21:58:58 +0800</lastBuildDate><atom:link href="https://wongpuiyan.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>1 Two Sum</title><link>https://wongpuiyan.github.io/1-two-sum/</link><pubDate>Wed, 05 Jul 2023 21:58:58 +0800</pubDate><author>NeoWong</author><guid>https://wongpuiyan.github.io/1-two-sum/</guid><description>&lt;h2 id="1-两数之和">1. 两数之和&lt;/h2>
+&lt;p>给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target 的那 两个 整数，并返回它们的数组下标。
+你可以假设每种输入只会对应一个答案。但是，数组中同一个元素在答案里不能重复出现。
+你可以按任意顺序返回答案。&lt;/p></description></item><item><title>快乐数</title><link>https://wongpuiyan.github.io/202-happy-number/</link><pubDate>Wed, 05 Jul 2023 00:12:30 +0800</pubDate><author>NeoWong</author><guid>https://wongpuiyan.github.io/202-happy-number/</guid><description><![CDATA[<h2 id="202-快乐数">202. 快乐数</h2>
 <p>编写一个算法来判断一个数 n 是不是快乐数。</p>
 <p>「快乐数」 定义为：</p>
 <p>对于一个正整数，每一次将该数替换为它每个位置上的数字的平方和。
@@ -26,5 +29,4 @@ int get(int index) 获取链表中下标为 index 的节点的值。如果下标
 void addAtHead(int val) 将一个值为 val 的节点插入到链表中第一个元素之前。在插入完成后，新节点会成为链表的第一个节点。
 void addAtTail(int val) 将一个值为 val 的节点追加到链表中作为链表的最后一个元素。
 void addAtIndex(int index, int val) 将一个值为 val 的节点插入到链表中下标为 index 的节点之前。如果 index 等于链表的长度，那么该节点会被追加到链表的末尾。如果 index 比长度更大，该节点将 不会插入 到链表中。
-void deleteAtIndex(int index) 如果下标有效，则删除链表中下标为 index 的节点。</p>]]></description></item><item><title>移除链表元素</title><link>https://wongpuiyan.github.io/203-remove-linked-list-elements/</link><pubDate>Sat, 01 Jul 2023 22:40:44 +0800</pubDate><author>NeoWong</author><guid>https://wongpuiyan.github.io/203-remove-linked-list-elements/</guid><description>&lt;h2 id="leetcode-203-移除链表元素">leetcode 203. 移除链表元素&lt;/h2>
-&lt;p>给你一个链表的头节点 head 和一个整数 val ，请你删除链表中所有满足 Node.val == val 的节点，并返回 新的头节点 。&lt;/p></description></item></channel></rss>
+void deleteAtIndex(int index) 如果下标有效，则删除链表中下标为 index 的节点。</p>]]></description></item></channel></rss>

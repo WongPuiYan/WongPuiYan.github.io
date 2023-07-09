@@ -1,4 +1,11 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>栈 - Tag - 揾食啫</title><link>https://wongpuiyan.github.io/tags/%E6%A0%88/</link><description>栈 - Tag - 揾食啫</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>neowong@qq.com (NeoWong)</managingEditor><webMaster>neowong@qq.com (NeoWong)</webMaster><lastBuildDate>Sun, 09 Jul 2023 22:44:15 +0800</lastBuildDate><atom:link href="https://wongpuiyan.github.io/tags/%E6%A0%88/" rel="self" type="application/rss+xml"/><item><title>用队列实现栈</title><link>https://wongpuiyan.github.io/225-implement-stack-using-queues/</link><pubDate>Sun, 09 Jul 2023 22:44:15 +0800</pubDate><author>NeoWong</author><guid>https://wongpuiyan.github.io/225-implement-stack-using-queues/</guid><description><![CDATA[<h2 id="225">225.</h2>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>栈 - Tag - 揾食啫</title><link>https://wongpuiyan.github.io/tags/%E6%A0%88/</link><description>栈 - Tag - 揾食啫</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>neowong@qq.com (NeoWong)</managingEditor><webMaster>neowong@qq.com (NeoWong)</webMaster><lastBuildDate>Sun, 09 Jul 2023 23:55:05 +0800</lastBuildDate><atom:link href="https://wongpuiyan.github.io/tags/%E6%A0%88/" rel="self" type="application/rss+xml"/><item><title>有效的括号</title><link>https://wongpuiyan.github.io/20-valid-parentheses/</link><pubDate>Sun, 09 Jul 2023 23:55:05 +0800</pubDate><author>NeoWong</author><guid>https://wongpuiyan.github.io/20-valid-parentheses/</guid><description><![CDATA[<h2 id="20-有效的括号">20. 有效的括号</h2>
+<p>给定一个只包括 &lsquo;(&rsquo;，&rsquo;)&rsquo;，&rsquo;{&rsquo;，&rsquo;}&rsquo;，&rsquo;[&rsquo;，&rsquo;]&rsquo; 的字符串 s ，判断字符串是否有效。</p>
+<p>有效字符串需满足：</p>
+<ul>
+<li>左括号必须用相同类型的右括号闭合。</li>
+<li>左括号必须以正确的顺序闭合。</li>
+<li>每个右括号都有一个对应的相同类型的左括号。</li>
+</ul>]]></description></item><item><title>用队列实现栈</title><link>https://wongpuiyan.github.io/225-implement-stack-using-queues/</link><pubDate>Sun, 09 Jul 2023 22:44:15 +0800</pubDate><author>NeoWong</author><guid>https://wongpuiyan.github.io/225-implement-stack-using-queues/</guid><description><![CDATA[<h2 id="225">225.</h2>
 <p>请你仅使用两个队列实现一个后入先出（LIFO）的栈，并支持普通栈的全部四种操作（push、top、pop 和 empty）。</p>
 <p>实现 MyStack 类：</p>
 <ul>

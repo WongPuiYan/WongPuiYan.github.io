@@ -29,7 +29,7 @@ class MyQueue:
     def pop(self) -> int:
         if self.empty():
             return None
-        
+
         if not self.stack_out:
             for i in range(len(self.stack_in)):
                 self.stack_out.append(self.stack_in.pop())

@@ -29,10 +29,10 @@ class MyStack:
     def pop(self) -> int:
         if self.empty():
             return None
-        
+
         for i in range(len(self.que) - 1):
             self.que.append(self.que.popleft())
-        
+
         return self.que.popleft()
 
     def top(self) -> int:

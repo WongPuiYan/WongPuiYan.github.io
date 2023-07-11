@@ -1,4 +1,4 @@
-# 1047 Remove All Adjacent Duplicates in String
+# 删除字符串中的所有相邻重复项
 
 
 ## 1047. 删除字符串中的所有相邻重复项

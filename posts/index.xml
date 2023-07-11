@@ -1,4 +1,7 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>All Posts - 揾食啫</title><link>https://wongpuiyan.github.io/posts/</link><description>All Posts | 揾食啫</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>neowong@qq.com (NeoWong)</managingEditor><webMaster>neowong@qq.com (NeoWong)</webMaster><lastBuildDate>Sun, 09 Jul 2023 23:55:05 +0800</lastBuildDate><atom:link href="https://wongpuiyan.github.io/posts/" rel="self" type="application/rss+xml"/><item><title>有效的括号</title><link>https://wongpuiyan.github.io/20-valid-parentheses/</link><pubDate>Sun, 09 Jul 2023 23:55:05 +0800</pubDate><author>NeoWong</author><guid>https://wongpuiyan.github.io/20-valid-parentheses/</guid><description><![CDATA[<h2 id="20-有效的括号">20. 有效的括号</h2>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>All Posts - 揾食啫</title><link>https://wongpuiyan.github.io/posts/</link><description>All Posts | 揾食啫</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>neowong@qq.com (NeoWong)</managingEditor><webMaster>neowong@qq.com (NeoWong)</webMaster><lastBuildDate>Tue, 11 Jul 2023 20:28:13 +0800</lastBuildDate><atom:link href="https://wongpuiyan.github.io/posts/" rel="self" type="application/rss+xml"/><item><title>1047 Remove All Adjacent Duplicates in String</title><link>https://wongpuiyan.github.io/1047-remove-all-adjacent-duplicates-in-string/</link><pubDate>Tue, 11 Jul 2023 20:28:13 +0800</pubDate><author>NeoWong</author><guid>https://wongpuiyan.github.io/1047-remove-all-adjacent-duplicates-in-string/</guid><description>&lt;h2 id="1047-删除字符串中的所有相邻重复项">1047. 删除字符串中的所有相邻重复项&lt;/h2>
+&lt;p>给出由小写字母组成的字符串 S，重复项删除操作会选择两个相邻且相同的字母，并删除它们。
+在 S 上反复执行重复项删除操作，直到无法继续删除。
+在完成所有重复项删除操作后返回最终的字符串。答案保证唯一。&lt;/p></description></item><item><title>有效的括号</title><link>https://wongpuiyan.github.io/20-valid-parentheses/</link><pubDate>Sun, 09 Jul 2023 23:55:05 +0800</pubDate><author>NeoWong</author><guid>https://wongpuiyan.github.io/20-valid-parentheses/</guid><description><![CDATA[<h2 id="20-有效的括号">20. 有效的括号</h2>
 <p>给定一个只包括 &lsquo;(&rsquo;，&rsquo;)&rsquo;，&rsquo;{&rsquo;，&rsquo;}&rsquo;，&rsquo;[&rsquo;，&rsquo;]&rsquo; 的字符串 s ，判断字符串是否有效。</p>
 <p>有效字符串需满足：</p>
 <ul>
@@ -52,7 +55,4 @@ magazine 中的每个字符只能在 ransomNote 中使用一次。&lt;/p></descr
 <ul>
 <li>0 &lt;= i, j, k, l &lt; n</li>
 <li>nums1[i] + nums2[j] + nums3[k] + nums4[l] == 0</li>
-</ul>]]></description></item><item><title>两数之和</title><link>https://wongpuiyan.github.io/1-two-sum/</link><pubDate>Wed, 05 Jul 2023 21:58:58 +0800</pubDate><author>NeoWong</author><guid>https://wongpuiyan.github.io/1-two-sum/</guid><description>&lt;h2 id="1-两数之和">1. 两数之和&lt;/h2>
-&lt;p>给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target 的那 两个 整数，并返回它们的数组下标。
-你可以假设每种输入只会对应一个答案。但是，数组中同一个元素在答案里不能重复出现。
-你可以按任意顺序返回答案。&lt;/p></description></item></channel></rss>
+</ul>]]></description></item></channel></rss>

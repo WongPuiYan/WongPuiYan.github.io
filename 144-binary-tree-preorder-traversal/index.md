@@ -1,8 +1,10 @@
-# 144 Binary Tree Preorder Traversal
+# 二叉树的前序遍历
 
 
 ## 144. 二叉树的前序遍历
 给你二叉树的根节点 root ，返回它节点值的 前序 遍历。
+
+<!--more-->
 
 ```python
 # Definition for a binary tree node.

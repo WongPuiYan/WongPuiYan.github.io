@@ -1,4 +1,7 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>All Posts - 揾食啫</title><link>https://wongpuiyan.github.io/posts/</link><description>All Posts | 揾食啫</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>neowong@qq.com (NeoWong)</managingEditor><webMaster>neowong@qq.com (NeoWong)</webMaster><lastBuildDate>Thu, 13 Jul 2023 21:41:26 +0800</lastBuildDate><atom:link href="https://wongpuiyan.github.io/posts/" rel="self" type="application/rss+xml"/><item><title>翻转二叉树</title><link>https://wongpuiyan.github.io/226-invert-binary-tree/</link><pubDate>Thu, 13 Jul 2023 21:41:26 +0800</pubDate><author>NeoWong</author><guid>https://wongpuiyan.github.io/226-invert-binary-tree/</guid><description>&lt;h2 id="226-翻转二叉树">226. 翻转二叉树&lt;/h2>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>All Posts - 揾食啫</title><link>https://wongpuiyan.github.io/posts/</link><description>All Posts | 揾食啫</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>neowong@qq.com (NeoWong)</managingEditor><webMaster>neowong@qq.com (NeoWong)</webMaster><lastBuildDate>Thu, 13 Jul 2023 22:11:41 +0800</lastBuildDate><atom:link href="https://wongpuiyan.github.io/posts/" rel="self" type="application/rss+xml"/><item><title>二叉树的最大深度</title><link>https://wongpuiyan.github.io/104-maximum-depth-of-binary-tree/</link><pubDate>Thu, 13 Jul 2023 22:11:41 +0800</pubDate><author>NeoWong</author><guid>https://wongpuiyan.github.io/104-maximum-depth-of-binary-tree/</guid><description>&lt;h2 id="104-二叉树的最大深度">104. 二叉树的最大深度&lt;/h2>
+&lt;p>给定一个二叉树，找出其最大深度。
+二叉树的深度为根节点到最远叶子节点的最长路径上的节点数。
+说明: 叶子节点是指没有子节点的节点。&lt;/p></description></item><item><title>翻转二叉树</title><link>https://wongpuiyan.github.io/226-invert-binary-tree/</link><pubDate>Thu, 13 Jul 2023 21:41:26 +0800</pubDate><author>NeoWong</author><guid>https://wongpuiyan.github.io/226-invert-binary-tree/</guid><description>&lt;h2 id="226-翻转二叉树">226. 翻转二叉树&lt;/h2>
 &lt;p>给你一棵二叉树的根节点 root ，翻转这棵二叉树，并返回其根节点。&lt;/p></description></item><item><title>二叉树的层序遍历</title><link>https://wongpuiyan.github.io/102-binary-tree-level-order-traversal/</link><pubDate>Wed, 12 Jul 2023 23:57:33 +0800</pubDate><author>NeoWong</author><guid>https://wongpuiyan.github.io/102-binary-tree-level-order-traversal/</guid><description>&lt;h2 id="102-二叉树的层序遍历">102. 二叉树的层序遍历&lt;/h2>
 &lt;p>给你二叉树的根节点 root ，返回其节点值的 层序遍历 。 （即逐层地，从左到右访问所有节点）。&lt;/p></description></item><item><title>二叉树的中序遍历</title><link>https://wongpuiyan.github.io/94-binary-tree-inorder-traversal/</link><pubDate>Tue, 11 Jul 2023 23:43:07 +0800</pubDate><author>NeoWong</author><guid>https://wongpuiyan.github.io/94-binary-tree-inorder-traversal/</guid><description>&lt;h2 id="94-二叉树的中序遍历">94. 二叉树的中序遍历&lt;/h2>
 &lt;p>给定一个二叉树的根节点 root ，返回 它的 中序 遍历 。&lt;/p></description></item><item><title>二叉树的后序遍历</title><link>https://wongpuiyan.github.io/145-binary-tree-postorder-traversal/</link><pubDate>Tue, 11 Jul 2023 23:42:43 +0800</pubDate><author>NeoWong</author><guid>https://wongpuiyan.github.io/145-binary-tree-postorder-traversal/</guid><description>&lt;h2 id="145-二叉树的后序遍历">145. 二叉树的后序遍历&lt;/h2>
@@ -26,17 +29,4 @@
 <li>左括号必须用相同类型的右括号闭合。</li>
 <li>左括号必须以正确的顺序闭合。</li>
 <li>每个右括号都有一个对应的相同类型的左括号。</li>
-</ul>]]></description></item><item><title>用队列实现栈</title><link>https://wongpuiyan.github.io/225-implement-stack-using-queues/</link><pubDate>Sun, 09 Jul 2023 22:44:15 +0800</pubDate><author>NeoWong</author><guid>https://wongpuiyan.github.io/225-implement-stack-using-queues/</guid><description><![CDATA[<h2 id="225">225.</h2>
-<p>请你仅使用两个队列实现一个后入先出（LIFO）的栈，并支持普通栈的全部四种操作（push、top、pop 和 empty）。</p>
-<p>实现 MyStack 类：</p>
-<ul>
-<li>void push(int x) 将元素 x 压入栈顶。</li>
-<li>int pop() 移除并返回栈顶元素。</li>
-<li>int top() 返回栈顶元素。</li>
-<li>boolean empty() 如果栈是空的，返回 true ；否则，返回 false 。</li>
-</ul>
-<p>注意：</p>
-<ul>
-<li>你只能使用队列的基本操作 —— 也就是 push to back、peek/pop from front、size 和 is empty 这些操作。</li>
-<li>你所使用的语言也许不支持队列。 你可以使用 list （列表）或者 deque（双端队列）来模拟一个队列 , 只要是标准的队列操作即可。</li>
 </ul>]]></description></item></channel></rss>

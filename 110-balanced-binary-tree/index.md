@@ -18,7 +18,7 @@
 
 # 递归
 class Solution:
-    def get_height(self, root: TreeNode):
+    def get_height(self, root: TreeNode) -> int:
         if not root:
             return 0
 

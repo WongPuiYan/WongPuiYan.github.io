@@ -1,4 +1,6 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>算法 - Category - 揾食啫</title><link>https://wongpuiyan.github.io/categories/%E7%AE%97%E6%B3%95/</link><description>算法 - Category - 揾食啫</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>neowong@qq.com (NeoWong)</managingEditor><webMaster>neowong@qq.com (NeoWong)</webMaster><lastBuildDate>Mon, 17 Jul 2023 23:26:26 +0800</lastBuildDate><atom:link href="https://wongpuiyan.github.io/categories/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml"/><item><title>找树左下角的值</title><link>https://wongpuiyan.github.io/513-find-bottom-left-tree-value/</link><pubDate>Mon, 17 Jul 2023 23:26:26 +0800</pubDate><author>NeoWong</author><guid>https://wongpuiyan.github.io/513-find-bottom-left-tree-value/</guid><description>&lt;h2 id="leetcode-513-找树左下角的值">Leetcode 513. 找树左下角的值&lt;/h2>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>算法 - Category - 揾食啫</title><link>https://wongpuiyan.github.io/categories/%E7%AE%97%E6%B3%95/</link><description>算法 - Category - 揾食啫</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>neowong@qq.com (NeoWong)</managingEditor><webMaster>neowong@qq.com (NeoWong)</webMaster><lastBuildDate>Tue, 18 Jul 2023 22:35:07 +0800</lastBuildDate><atom:link href="https://wongpuiyan.github.io/categories/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml"/><item><title>二叉搜索树的最小绝对差</title><link>https://wongpuiyan.github.io/530-minimum-absolute-difference-in-bst/</link><pubDate>Tue, 18 Jul 2023 22:35:07 +0800</pubDate><author>NeoWong</author><guid>https://wongpuiyan.github.io/530-minimum-absolute-difference-in-bst/</guid><description>&lt;h2 id="530-二叉搜索树的最小绝对差">530. 二叉搜索树的最小绝对差&lt;/h2>
+&lt;p>给你一个二叉搜索树的根节点 root ，返回 树中任意两不同节点值之间的最小差值 。
+差值是一个正数，其数值等于两值之差的绝对值。&lt;/p></description></item><item><title>找树左下角的值</title><link>https://wongpuiyan.github.io/513-find-bottom-left-tree-value/</link><pubDate>Mon, 17 Jul 2023 23:26:26 +0800</pubDate><author>NeoWong</author><guid>https://wongpuiyan.github.io/513-find-bottom-left-tree-value/</guid><description>&lt;h2 id="leetcode-513-找树左下角的值">Leetcode 513. 找树左下角的值&lt;/h2>
 &lt;p>给定一个二叉树的 根节点 root，请找出该二叉树的 最底层 最左边 节点的值。
 假设二叉树中至少有一个节点。&lt;/p></description></item><item><title>平衡二叉树</title><link>https://wongpuiyan.github.io/110-balanced-binary-tree/</link><pubDate>Mon, 17 Jul 2023 22:10:16 +0800</pubDate><author>NeoWong</author><guid>https://wongpuiyan.github.io/110-balanced-binary-tree/</guid><description>&lt;h2 id="leetcode-110-平衡二叉树">Leetcode 110. 平衡二叉树&lt;/h2>
 &lt;p>给定一个二叉树，判断它是否是高度平衡的二叉树。
@@ -13,15 +15,4 @@
 &lt;p>给你一棵二叉树的根节点 root ，返回其节点值的 后序遍历 。&lt;/p></description></item><item><title>二叉树的前序遍历</title><link>https://wongpuiyan.github.io/144-binary-tree-preorder-traversal/</link><pubDate>Tue, 11 Jul 2023 23:42:02 +0800</pubDate><author>NeoWong</author><guid>https://wongpuiyan.github.io/144-binary-tree-preorder-traversal/</guid><description>&lt;h2 id="leetcode-144-二叉树的前序遍历">Leetcode 144. 二叉树的前序遍历&lt;/h2>
 &lt;p>给你二叉树的根节点 root ，返回它节点值的 前序 遍历。&lt;/p></description></item><item><title>滑动窗口最大值</title><link>https://wongpuiyan.github.io/239-sliding-window-maximum/</link><pubDate>Tue, 11 Jul 2023 20:29:18 +0800</pubDate><author>NeoWong</author><guid>https://wongpuiyan.github.io/239-sliding-window-maximum/</guid><description>&lt;h2 id="leetcode-239-滑动窗口最大值">Leetcode 239. 滑动窗口最大值&lt;/h2>
 &lt;p>给你一个整数数组 nums，有一个大小为 k 的滑动窗口从数组的最左侧移动到数组的最右侧。你只可以看到在滑动窗口内的 k 个数字。滑动窗口每次只向右移动一位。
-返回 滑动窗口中的最大值 。&lt;/p></description></item><item><title>逆波兰表达式求值</title><link>https://wongpuiyan.github.io/150-evaluate-reverse-polish-notation/</link><pubDate>Tue, 11 Jul 2023 20:28:57 +0800</pubDate><author>NeoWong</author><guid>https://wongpuiyan.github.io/150-evaluate-reverse-polish-notation/</guid><description><![CDATA[<h2 id="leetcode-150-逆波兰表达式求值">Leetcode 150. 逆波兰表达式求值</h2>
-<p>给你一个字符串数组 tokens ，表示一个根据 逆波兰表示法 表示的算术表达式。
-请你计算该表达式。返回一个表示表达式值的整数。</p>
-<p>注意：</p>
-<ul>
-<li>有效的算符为 &lsquo;+&rsquo;、&rsquo;-&rsquo;、&rsquo;*&rsquo; 和 &lsquo;/&rsquo; 。</li>
-<li>每个操作数（运算对象）都可以是一个整数或者另一个表达式。</li>
-<li>两个整数之间的除法总是 向零截断 。</li>
-<li>表达式中不含除零运算。</li>
-<li>输入是一个根据逆波兰表示法表示的算术表达式。</li>
-<li>答案及所有中间计算结果可以用 32 位 整数表示。</li>
-</ul>]]></description></item></channel></rss>
+返回 滑动窗口中的最大值 。&lt;/p></description></item></channel></rss>
